@@ -1,30 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="999d5bbc-0533-478e-bfe2-1600e57956d1" name="Default" comment="off target prediction">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/.idea/PA1Regression.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/data/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/data/count_data_testx.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/data/count_data_testy.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/data/count_data_trainx.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/data/count_data_trainy.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/data/count_data_ym.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/data/polydata_data_polyx.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/data/polydata_data_polyy.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/data/polydata_data_sampx.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/data/polydata_data_sampy.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/data/polydata_data_thtrue.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/regression/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/regression/counting_people.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/regression/polynomial_function.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../PA1Regression/result/Figure_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../README.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+    <list default="true" id="999d5bbc-0533-478e-bfe2-1600e57956d1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prediction/predictionModel.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/prediction/tensorFlow_test.py" afterPath="$PROJECT_DIR$/prediction/mlp_prediction.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prediction/preprocessSeq.py" afterPath="$PROJECT_DIR$/prediction/preprocessSeq.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,18 +20,18 @@
       <file leaf-file-name="day21etp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stats/day21etp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
+            <state relative-caret-position="345">
               <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cfd-score-calculator.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cfd-score-calculator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CFDScoring/cfd-score-calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="919">
-              <caret line="65" column="14" lean-forward="true" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+            <state relative-caret-position="418">
+              <caret line="55" column="18" lean-forward="false" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
               <folding>
                 <element signature="e#297#310#0" expanded="true" />
               </folding>
@@ -57,12 +39,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filtered_mismatch_offtarget_noNC.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/filtered_mismatch_offtarget_noNC.csv">
+      <file leaf-file-name="offtargetPrediction.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prediction/offtargetPrediction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="3910">
+              <caret line="230" column="0" lean-forward="false" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
+              <folding>
+                <element signature="e#154#173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="predictionModel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prediction/predictionModel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+              <folding>
+                <element signature="e#151#169#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,10 +66,22 @@
       <file leaf-file-name="preprocessSeq.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prediction/preprocessSeq.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-361">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="6120">
+              <caret line="360" column="52" lean-forward="false" selection-start-line="360" selection-start-column="52" selection-end-line="360" selection-end-column="52" />
               <folding>
                 <element signature="e#149#167#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mlp_prediction.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prediction/mlp_prediction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="136" column="0" lean-forward="true" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+              <folding>
+                <element signature="e#150#173#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,15 +127,16 @@
         <option value="$PROJECT_DIR$/prediction/offtargetPrediction.py" />
         <option value="$PROJECT_DIR$/prediction/mlp_tensorflow.py" />
         <option value="$PROJECT_DIR$/prediction/tensorFlow_test.py" />
+        <option value="$PROJECT_DIR$/prediction/predictionModel.py" />
         <option value="$PROJECT_DIR$/prediction/preprocessSeq.py" />
+        <option value="$PROJECT_DIR$/prediction/mlp_prediction.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-1920" />
-    <option name="y" value="-272" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -220,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.preprocessSeq">
+  <component name="RunManager" selected="Python.tensorFlow_test">
     <configuration name="classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,6 +264,23 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="predictionModel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prediction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="off-target prediction project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prediction/predictionModel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="preprocessSeq" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,42 +310,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="off-target prediction project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prediction/tensorFlow_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="tensorflow_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prediction" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="off-target prediction project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prediction/tensorflow_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prediction/mlp_prediction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.classification" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tensorflow_test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tensorFlow_test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.mlp_tensorflow" />
-      <item index="4" class="java.lang.String" itemvalue="Python.preprocessSeq" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tensorFlow_test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.mlp_tensorflow" />
+      <item index="3" class="java.lang.String" itemvalue="Python.preprocessSeq" />
+      <item index="4" class="java.lang.String" itemvalue="Python.predictionModel" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.preprocessSeq" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tensorFlow_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.mlp_tensorflow" />
-        <item index="3" class="java.lang.String" itemvalue="Python.classification" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tensorflow_test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tensorFlow_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.preprocessSeq" />
+        <item index="2" class="java.lang.String" itemvalue="Python.predictionModel" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mlp_tensorflow" />
+        <item index="4" class="java.lang.String" itemvalue="Python.classification" />
       </list>
     </recent_temporary>
   </component>
@@ -334,28 +343,37 @@
       <option name="presentableId" value="Default" />
       <updated>1509124657430</updated>
     </task>
+    <task id="LOCAL-00001" summary="off target prediction">
+      <created>1511322451505</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511322451505</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-272" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21192758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17948718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.50319487" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22939424" sideWeight="0.4968051" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21351932" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24131082" sideWeight="0.4968051" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.387289" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44786495" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41309014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4141013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -379,10 +397,39 @@
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="off target prediction" />
     <option name="LAST_COMMIT_MESSAGE" value="off target prediction" />
   </component>
@@ -400,8 +447,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/offtargetScores.csv" />
-    <entry file="file://$PROJECT_DIR$/data/pa_etp_nopam.csv" />
     <entry file="file://$PROJECT_DIR$/data/offtarget.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -420,9 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#145#154#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -573,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="894" column="0" lean-forward="false" selection-start-line="894" selection-start-column="0" selection-end-line="894" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,9 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="632">
           <caret line="74" column="18" lean-forward="true" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-          <folding>
-            <element signature="e#145#154#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -591,45 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
           <caret line="95" column="39" lean-forward="true" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
-          <folding>
-            <element signature="e#734#771#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prediction/mlp_score.pkl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prediction/offtargetPrediction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="230" column="0" lean-forward="true" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
-          <folding>
-            <element signature="e#154#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stats/day21etp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prediction/tensorFlow_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="94" column="46" lean-forward="true" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
-          <folding>
-            <element signature="e#151#174#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -637,7 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-144">
           <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,22 +647,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/prediction/mlp_score.pkl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prediction/offtargetPrediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3910">
+          <caret line="230" column="0" lean-forward="false" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
+          <folding>
+            <element signature="e#154#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CFDScoring/new_mismatch.pkl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CFDScoring/cfd-score-calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="55" column="18" lean-forward="false" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+          <folding>
+            <element signature="e#297#310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stats/day21etp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/prediction/preprocessSeq.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="6120">
+          <caret line="360" column="52" lean-forward="false" selection-start-line="360" selection-start-column="52" selection-end-line="360" selection-end-column="52" />
           <folding>
             <element signature="e#149#167#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CFDScoring/cfd-score-calculator.py">
+    <entry file="file://$PROJECT_DIR$/prediction/predictionModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="919">
-          <caret line="65" column="14" lean-forward="true" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+        <state relative-caret-position="510">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding>
-            <element signature="e#297#310#0" expanded="true" />
+            <element signature="e#151#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prediction/mlp_prediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="136" column="0" lean-forward="true" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding>
+            <element signature="e#150#173#0" expanded="true" />
           </folding>
         </state>
       </provider>
