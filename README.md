@@ -2,7 +2,7 @@
 This is a an ensemble learning framework which synergizes multiple tools with genomic annotations together to predict the off-target activities of CRISPR/Cas9 in different combinations. 
 
 # PREREQUISITE
-SynergizingCRISPR was conducted by using Python 3 version and R v3.4.3. 
+SynergizingCRISPR was conducted by using Python 2.7.13 version and TensorFLow v1.4.1. 
 Following Python packages should be installed:
 <ul>
 <li><p>scipy</p></li>
