@@ -18,7 +18,7 @@ Following Python packages should be installed:
 <li><p>CFDScoring/cfd-score-calculator.py : Python script to run CFD score </p></li>
 <li><p>data/crispor_allscore.csv : The CRIPOR dataset used for model training</p></li>
 <li><p>data/GUIDE-seqData.csv : The GUIDE-seq used for model testing</p></li>
-<li><p>CNN_std_model/cnn_all_train.ckpt.* : </p></li>
+<li><p>CNN_std_model/cnn_all_train.ckpt.* : The final convolutional neural network model (CNN_std)</p></li>
 </ul>
 
 ---------------------------------------
