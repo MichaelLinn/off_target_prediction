@@ -1,4 +1,4 @@
-# Off-target predicitons in CRISPR-Cas 9 using deep learning
+# Deep Learning Models used for Off-target predicitons in CRISPR-Cas 9 gene editing
 This is a an ensemble learning framework which synergizes multiple tools with genomic annotations together to predict the off-target activities of CRISPR/Cas9 in different combinations. 
 
 # PREREQUISITE
