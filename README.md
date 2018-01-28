@@ -9,7 +9,7 @@ Following Python packages should be installed:
 <li><p>numpy</p></li>
 <li><p>pandas</p></li>
 <li><p>scikit-learn</p></li>
-<li><p>tensorflow</p></li>
+<li><p>TensorFlow</p></li>
 </ul>
 
 
