@@ -1,5 +1,5 @@
 # Off-target predicitons in CRISPR-Cas 9 using deep learning
-This is a an ensemble learning framework which synergizes multiple tools with genomic annotations  together to predict the off-target activities of CRISPR/Cas9 in different combinations. 
+This is a an ensemble learning framework which synergizes multiple tools with genomic annotations together to predict the off-target activities of CRISPR/Cas9 in different combinations. 
 
 # PREREQUISITE
 SynergizingCRISPR was conducted by using Python 3 version and R v3.4.3. 
@@ -9,12 +9,9 @@ Following Python packages should be installed:
 <li><p>numpy</p></li>
 <li><p>pandas</p></li>
 <li><p>scikit-learn</p></li>
+<li><p>tensorflow</p></li>
 </ul>
-Following R packages should be installed:
-<ul>
-<li><p>GenomicScores</p></li>
-<li><p>Genomation </p></li>
-</ul>
+
 
 # CONTAINS:
 <ul>
