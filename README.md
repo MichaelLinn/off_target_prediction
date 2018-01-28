@@ -1,5 +1,5 @@
-# Deep Learning Models used for Off-target predicitons in CRISPR-Cas 9 gene editing
-This is a an ensemble learning framework which synergizes multiple tools with genomic annotations together to predict the off-target activities of CRISPR/Cas9 in different combinations. 
+# Deep Learning Models used for off-target predicitons in CRISPR-Cas 9 gene editing
+This repository includes a deep feedforward neural network and a deep convolutional neural network for off-target predicitons in CRISPR-Cas 9 gene editing. Both of the deep learning models were trained using CRISPOR dataset, which counts 26,034 putative off-targets including 143 validated off-targets identified by CRISPOR.
 
 # PREREQUISITE
 SynergizingCRISPR was conducted by using Python 2.7.13 version and TensorFLow v1.4.1. 
