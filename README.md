@@ -16,9 +16,9 @@ Following Python packages should be installed:
 # CONTAINS:
 <ul>
 <li><p>CFDScoring/cfd-score-calculator.py : Python script to run CFD score </p></li>
-<li><p>chromatin annotations.R : R script to get the ChromHMM and Segway</p></li>
-<li><p>conservation.R : R script to get the PhyloP and PhastCons</p></li>
-<li><p>Crispr_Data.csv : it stores the raw data including DNA sequences, sgRNA sequences, and features</p></li>
+<li><p>data/crispor_allscore.csv : The CRIPOR dataset used for model training</p></li>
+<li><p>data/GUIDE-seqData.csv : The GUIDE-seq used for model testing</p></li>
+<li><p>CNN_std_model/cnn_all_train.ckpt.* : </p></li>
 </ul>
 
 ---------------------------------------
