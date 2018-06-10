@@ -1,6 +1,11 @@
 # Deep Learning Models used for off-target predicitons in CRISPR-Cas 9 gene editing
 This repository includes a deep feedforward neural network and a deep convolutional neural network for predicting the off-targets in CRISPR-Cas9 gene editing. Both of the deep learning models were trained using CRISPOR dataset, which counts with 26,034 putative off-targets.
 
+# Publication
+Please cite this paper if using our preditive model:
+
+Jiecong, Lin. & Ka-Chun, Wong. (2018). Off-target predictions in CRISPR-Cas9 gene editing using deep learning (ECCB 2018 Proceeding Special Issue). Bioinformatics
+
 # PREREQUISITE
 SynergizingCRISPR was conducted by using Python 2.7.13 version and TensorFLow v1.4.1. 
 Following Python packages should be installed:
