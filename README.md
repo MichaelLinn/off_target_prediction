@@ -22,7 +22,6 @@ Following Python packages should be installed:
 <ul>
 <li><p>CFDScoring/cfd-score-calculator.py : Python script to run CFD score </p></li>
 <li><p>data/crispor_allscore.csv : The CRIPOR dataset used for model training</p></li>
-<li><p>data/GUIDE-seqData.csv : The GUIDE-seq used for model testing</p></li>
 <li><p>CNN_std_model/cnn_all_train.ckpt.* : The final convolutional neural network model (CNN_std)</p></li>
 <li><p>predictions/plot_guide_roc.py : Python script to test three traditional machine learning models, deep feedforward neural network (FNN_3layer), convolutional neural network (CNN_std) and CFD score on GUIDE-seq dataset and plot the results
 <li><p>predictions/cnn_std_prediction.py : Python script to run final convolutional neural network (CNN_std) on GUIDE-seq independently
