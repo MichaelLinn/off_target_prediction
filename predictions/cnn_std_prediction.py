@@ -109,32 +109,9 @@ saver = tf.train.Saver()
 saver.restore(sess, "../CNN_std_model/cnn_all_train.ckpt")
 
 # load test_data
-test = pkl.load(open("../data/guideseq_encode_data_cnn.pkl", "rb"))
-test_data = test[0]
-test_data_label = test[1][:, 0]
-cfd_score = test[2]
-print cfd_score
+# test_data = test[0]
+# test_data_label = test[1][:, 0]
 
-res = sess.run(y_conv, feed_dict={x: test_data, keep_prob: 1.0})
-result = res[:, 0]
-
-plt.plot([0,1], [0,1], linestyle='--', lw=2, color='r', label='Luck', alpha=.8)
-plt.xlim([-0.05, 1.05])
-plt.ylim([-0.05, 1.05])
-
-
-fpr, tpr, thresholds = roc_curve(test_data_label, result)
-auc_ = auc(fpr, tpr)
-plt.plot(fpr, tpr, label=r'CNN_std score ROC (AUC = %0.3f)' % auc_)
-print auc_
-
-# store cnn result
-cnn_res = [fpr, tpr]
-pkl.dump(cnn_res, open("../result/cnn_guidedata.pkl", "wb"))
-print "result stored!"
-
-fpr, tpr, thresholds = roc_curve(test_data_label, cfd_score)
-auc_ = auc(fpr, tpr)
-print auc_
-plt.plot(fpr, tpr, label=r'CFD score ROC (AUC = %0.3f)' % auc_)
-plt.show()
+# predict off-target effect
+# res = sess.run(y_conv, feed_dict={x: test_data, keep_prob: 1.0})
+# result = res[:, 0]
