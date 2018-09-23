@@ -34,7 +34,7 @@ Following Python packages should be installed:
 # CONTAINS:
 <ul>
 <li><p>CFDScoring/cfd-score-calculator.py : Python script to run CFD score </p></li>
-<li><p>data/crispor_allscore.csv : The CRIPOR dataset used for model validation</p></li>
+<li><p>data/crispor_allscore.csv : The CRISPOR dataset used for model validation</p></li>
 <li><p>predictions/cnn_std_prediction_TF.py : CNN_std conducted by TensorFlow</p></li>
 <li><p>predictions/cnn_std_keras.py : CNN_std conducted by Keras used for off-target prediction </p></li>
 </p></li>
