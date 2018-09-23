@@ -33,7 +33,6 @@ def conv2d1(x, W):
 
 
 def max_pool_2x2(x):
-    # tf.nn.pool(x, [1, 1, 3, 1], strides=[1, 1, 3, 1], padding='SAME')
     return tf.nn.max_pool(x, ksize=[1, 5, 1, 1],
                           strides=[1, 5, 1, 1], padding='SAME')
 
