@@ -1,4 +1,4 @@
-# Deep Learning Models used for off-target predicitons in CRISPR-Cas 9 gene editing
+# Deep Learning Models used for off-target predicitons in CRISPR-Cas9 gene editing
 This repository includes a deep convolutional neural network for predicting the off-targets in CRISPR-Cas9 gene editing. The CNN_std conducted by TensorFlow were trained using CRISPOR dataset. The CNN_std conducted by Keras were trained on the largest sgRNA off-target dataset up to date from [1].
 
 # PUBLICATION
