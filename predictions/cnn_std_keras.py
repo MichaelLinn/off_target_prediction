@@ -88,6 +88,7 @@ def cnn_predict(guide_seq, off_seq):
 
     y_pred = loaded_model.predict(input_code).flatten()
     print(y_pred)
+    return y_pred
 
 
 # ------------------ example ----------------------
