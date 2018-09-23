@@ -12,7 +12,6 @@ from numpy.random import seed
 
 seed(5)
 from tensorflow import set_random_seed
-
 set_random_seed(11)
 
 
