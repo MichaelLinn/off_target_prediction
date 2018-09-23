@@ -91,12 +91,3 @@ def cnn_predict(guide_seq, off_seq):
     return y_pred
 
 
-# ------------------ example ----------------------
-guide_seq = "GGTGAGTGAGTGTGTGCGTGTGG"
-off_seq = "TGTGGGTGAGTGTGTGCGTGAGA"
-cnn_predict(guide_seq, off_seq)
-
-guide_seq = "GGCACTGCGGCTGGAGGTGGGGG"
-off_seq = "GGCAGTGCTGGTGGTGGTGGTGG"
-cnn_predict(guide_seq, off_seq)
-
