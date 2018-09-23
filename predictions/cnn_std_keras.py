@@ -54,29 +54,9 @@ def cnn_model(X_train, X_test, y_train, y_test):
     print(model.summary())
     model.fit(X_train, y_train, batch_size=100, epochs=200, shuffle=True)
 
-    save_trained_model(model)
     # later...
     # X_test, y_test = load_crispor_data()
     y_pred = model.predict(X_test).flatten()
-
-
-def save_trained_model(model):
-    model_yaml = model.to_yaml()
-    with open("model.yaml", "w") as yaml_file:
-        yaml_file.write(model_yaml)
-    # serialize weights to HDF5
-    model.save_weights("model.h5")
-    print("Saved model to disk")
-
-def load_trained_model():
-    # load YAML and create model
-    yaml_file = open('model.yaml', 'r')
-    loaded_model_yaml = yaml_file.read()
-    yaml_file.close()
-    loaded_model = model_from_yaml(loaded_model_yaml)
-    # load weights into new model
-    loaded_model.load_weights("model.h5")
-    print("Loaded model from disk")
 
 def cnn_predict(guide_seq, off_seq):
 
