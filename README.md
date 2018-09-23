@@ -1,5 +1,5 @@
 # Deep Learning Models used for off-target predicitons in CRISPR-Cas 9 gene editing
-This repository includes a deep feedforward neural network and a deep convolutional neural network for predicting the off-targets in CRISPR-Cas9 gene editing. Both of the deep learning models were trained using CRISPOR dataset.
+This repository includes a deep convolutional neural network for predicting the off-targets in CRISPR-Cas9 gene editing. Both of the deep learning models were trained using CRISPOR dataset.
 
 # PUBLICATION
 Please cite this paper if using our preditive model:
