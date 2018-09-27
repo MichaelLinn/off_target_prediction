@@ -8,11 +8,7 @@ import tensorflow as tf
 import pickle as pkl
 from sklearn.metrics import auc, roc_curve
 import matplotlib.pylab as plt
-from numpy.random import seed
-
-seed(5)
 from tensorflow import set_random_seed
-set_random_seed(11)
 
 
 def weight_variable(shape):
